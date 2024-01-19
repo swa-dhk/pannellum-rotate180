@@ -1,3 +1,15 @@
+i needed to rotate the input equirectangular image 180 degrees, 
+-> could not find how to do it
+=> bodged up this to make it work
+
+simply add rotate180=true to the query 
+trhe code will rotate the image 180 degrees, save it as a blob, then redirects the page to the roated image.
+
+http://swa-dhk.github.io/pannellum-rotate180?rotate180=true&autoLoad=true&panorama=https://pannellum.org/images/alma.jpg
+
+
+original readme.md from Pannellum below
+---
 # Pannellum
 
 [![Build Status](https://app.travis-ci.com/mpetroff/pannellum.svg?branch=master)](https://app.travis-ci.com/github/mpetroff/pannellum)
